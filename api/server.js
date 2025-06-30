@@ -26,7 +26,7 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-app.post('/api/chat', async (req, res) => {
+app.post('/api/server', async (req, res) => {
     try {
         const userMessage = req.body.message;
 
