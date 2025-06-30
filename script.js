@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         try {
             // Envia a mensagem para o seu backend
-            const response = await fetch('/api/chat', {
+            const response = await fetch('/api/server', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
