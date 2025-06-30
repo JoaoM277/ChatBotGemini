@@ -1,0 +1,9 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivo de variáveis de ambiente
+.env
+
+# Arquivo de credenciais do Firebase
+firebase-credentials.json
+firebase-credentials.json.json

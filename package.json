@@ -1,0 +1,18 @@
+{
+  "name": "chatbot.int.gemini1",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0"
+  }
+}

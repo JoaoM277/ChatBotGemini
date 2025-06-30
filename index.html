@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Interativa com Gemini Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="main-menu">
+        <a href="#inicio" class="menu-item active">Início</a>
+        <a href="#servicos" class="menu-item">Serviços</a>
+        <a href="#sobre" class="menu-item">Sobre Nós</a>
+        <a href="#portfolio" class="menu-item">Portfólio</a>
+        <a href="#precos" class="menu-item">Preços</a>
+        <a href="#contato" class="menu-item">Contato</a>
+    </nav>
+
+    <main>
+        <section id="inicio" class="page active">
+            <h1>Bem-vindo à nossa página!</h1>
+            <p>Navegue pelo menu para conhecer mais ou fale com nosso assistente virtual.</p>
+        </section>
+
+        <section id="servicos" class="page">
+            <h1>Nossos Serviços</h1>
+            <p>Detalhes sobre os serviços oferecidos.</p>
+        </section>
+
+        <section id="sobre" class="page">
+            <h1>Sobre Nós</h1>
+            <p>Informações sobre a empresa e a equipe.</p>
+        </section>
+
+        <section id="portfolio" class="page">
+            <h1>Nosso Portfólio</h1>
+            <p>Exemplos de trabalhos realizados.</p>
+        </section>
+
+        <section id="precos" class="page">
+            <h1>Tabela de Preços</h1>
+            <p>Informações sobre pacotes e valores.</p>
+        </section>
+
+        <section id="contato" class="page">
+            <h1>Contato</h1>
+            <p>Formulário de contato ou informações de email e telefone.</p>
+        </section>
+    </main>
+
+    <div id="chatbot-container">
+        <div id="chat-header" onclick="toggleChat()">
+            Fale com nosso Assistente IA
+            <span id="chat-toggle-icon">-</span>
+        </div>
+        <div id="chat-window">
+            <div id="chat-messages">
+                <div class="message bot-message">Olá! Como posso ajudar você hoje?</div>
+            </div>
+            <div id="chat-input-area">
+                <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+                <button id="send-btn">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
